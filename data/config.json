@@ -1,0 +1,6 @@
+{
+  "telefonos": [{"nombre": "Ventas interior", "tel": "59898010236"}],
+  "minimo": 7500,
+  "bajoMinimo": "publico",
+  "outlet": true
+}
