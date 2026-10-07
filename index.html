@@ -203,7 +203,7 @@ a.btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
   <div class="panel" role="dialog" aria-modal="true" aria-labelledby="otitle">
     <div class="phead"><h2 id="otitle">🎁 Cómo funciona el Outlet 1+1</h2><button class="x" id="oclose" type="button" aria-label="Cerrar">×</button></div>
     <div class="helpbody"><div class="helpgrid">
-      <div class="helpvw"><video class="helpv" id="ohelpv" src="img/outlet-interior.mp4?v=1" poster="img/outlet.jpg?v=1" playsinline controls preload="none"></video><button class="snd" id="osnd" type="button" hidden>🔊 Activar sonido</button></div>
+      <div class="helpvw"><video class="helpv" id="ohelpv" src="img/outlet-interior.mp4?v=2" poster="img/outlet.jpg?v=1" playsinline controls preload="none"></video><button class="snd" id="osnd" type="button" hidden>🔊 Activar sonido</button></div>
       <ol>
         <li>Entrá a <b>🎁 Outlet 1+1</b>, en las líneas.</li>
         <li>Por cada tono que comprás, te llevás <b>uno de regalo del mismo sistema</b> (Gel Color con Gel Color, Nail Lacquer con Nail Lacquer).</li>
@@ -247,8 +247,8 @@ a.btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
   var S={line:-1,fam:-1,col:-1,osys:-1,q:'',sel:{},gift:{}}, T=[], META=null, DISP={}, PP={}, OUT={}, ITEMS=[], BYKEY={};
   // Variantes de la carta: misma data, distinto teléfono y pedido mínimo según la ruta.
   var VAR={
-    montevideo:{tel:'59892775633', minimo:4500, bajoMinimo:'bloquea', sub:'Carta para profesionales', video:'img/outlet-interior.mp4?v=1'},
-    interior:{tel:'59898010236', minimo:7500, bajoMinimo:'publico', sub:'Carta para profesionales · Interior del país', video:'img/outlet-interior.mp4?v=1'}
+    montevideo:{tel:'59892775633', minimo:4500, bajoMinimo:'bloquea', sub:'Carta para profesionales', video:'img/outlet-interior.mp4?v=2'},
+    interior:{tel:'59898010236', minimo:7500, bajoMinimo:'publico', sub:'Carta para profesionales · Interior del país', video:'img/outlet-interior.mp4?v=2'}
   };
   var CFG=VAR[window.VARIANTE||(/\/interior(\/|$)/.test(location.pathname)?'interior':'montevideo')];
   var MINIMO=CFG.minimo, OUTLET=-2, TONO={0:1,1:1,2:1,3:1,4:1};
